@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: ms-account
+  config:
+    import: configserver:http://localhost:8888
+  cloud:
+    config:
+      username: admin
+      password: local123
